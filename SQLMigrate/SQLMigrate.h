@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FMDatabase.h"
 
 @interface SQLMigrate : NSObject
-
++ (void)migrate:(FMDatabase*)db;
 @end
